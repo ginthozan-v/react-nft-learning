@@ -1,0 +1,18 @@
+.shimmer-wrapper {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: skeletonLoading 1s linear infinite alternate;
+}
+
+@keyframes skeletonLoading {
+  0% {
+    /* background-color: hsl(0, 0%, 15%); */
+    background-color: rgb(68, 68, 68);
+  }
+  100% {
+    background-color: hsl(0, 0%, 23%);
+  }
+}
